@@ -1,11 +1,12 @@
 from pywebcopy import save_website
-save_website(
-    url="https://1470umto.ru/",
-    project_folder="E://savedpages//",
-    project_name="my_site",
-    bypass_robots=True,
-    debug=True,
-    open_in_browser=True,
-    delay=None,
-    threaded=False,
-)
+import csv
+with open('ready_domains.csv', 'r') as f_csv:
+    domains = csv.reader(f_csv)
+    for name_url_ in domains:
+        name_url = name_url_[0]
+        save_website(
+                    url=name_url,
+                    project_folder="websites://savedpages//",
+                    project_name=name_url.split('/')[2],
+                    threaded=True
+                )
