@@ -1,0 +1,40 @@
+1681592642672	geckodriver	INFO	Listening on 127.0.0.1:41837
+1681592643224	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "44263" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHBy2fB"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681592643673	Marionette	INFO	Marionette enabled
+1681592643676	Marionette	INFO	Listening on port 45437
+Read port: 45437
+WebDriver BiDi listening on ws://127.0.0.1:44263
+1681592643781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHBy2fB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44263/devtools/browser/20615c9a-392b-4325-826d-9cb0142463a8
+1681592746532	geckodriver	INFO	Listening on 127.0.0.1:54277
+1681592747064	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/bin ... te" "--remote-debugging-port" "33225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKNUj3b"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681592747546	Marionette	INFO	Marionette enabled
+1681592747549	Marionette	INFO	Listening on port 46781
+Read port: 46781
+WebDriver BiDi listening on ws://127.0.0.1:33225
+1681592747673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKNUj3b/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33225/devtools/browser/fc183083-788d-46d6-94bf-5813b6212bde
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1681593184919	Marionette	INFO	Stopped listening on port 46781
+1681593418177	Marionette	INFO	Stopped listening on port 45437
